@@ -4,8 +4,8 @@ Contributors: bizswoop
 Tags: woocommerce, woocommerce open close, opening-closing-time, opening-time, closing-time, business hours, hours business, wordpress, web-shop-management, restrict-add-to-cart, wordpress-plugin, woo-open-close, order hours, woo order hours, wooorders, order schedule, block ordering, block woocommerce ordering, schedule ordering, maintain scheduling in woocommerce, maintain scheduling in website, maintain scheduling in webshop, opening, closing, opening shop, opening website, opening woocommerce, closing shop, closing website, closing woocommerce, business hour, business time, pick-up, pickup, pick-up delivery, pickup delivery, order pickup, order pick-up, order pickup delivery, order pick-up devlivery, restaurant open, restaurant closed, restaurant open close, schedule orders, open, close, open store, close store, block ordering, block checkout, prevent checkout, show hours
 Requires at least: 3.0
 Requires PHP: 5.6
-Tested up to: 6.4.3
-Stable tag: 4.3.20
+Tested up to: 6.6.2
+Stable tag: 4.3.23
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -77,6 +77,11 @@ The Store Hours Manager Plugin enables/disables the WooCommerce checkout functio
 
 
 == Changelog ==
+= 4.3.23 =
+* Patch to Cross-Site Scripting Vulnerability reported by vgo0 (Thank you) and WordFence for notyfing CVE ID: CVE-2024-8872
+* Add composer autoloader to directory
+* WC tested up to WC 9.3.2
+* WP tested up to WC 6.6.2   
 
 = 4.3.20 =
 * HPOS Compability

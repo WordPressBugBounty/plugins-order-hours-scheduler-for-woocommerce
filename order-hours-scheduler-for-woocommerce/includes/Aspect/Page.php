@@ -152,7 +152,7 @@ class Page extends Base
                 $classes = ['nav-tab'];
                 if ($this->currentTab($tab)) $classes[] = 'nav-tab-active';
                 ?>
-                <a href="<?= add_query_arg('tab', $tab->name); ?>"
+                <a href="<?= esc_url(add_query_arg('tab', $tab->name)); ?>"
                    class="<?= implode(' ', $classes); ?>"><?= $tab->labels['singular_name']; ?></a>
             <?php } ?>
         </h2>
