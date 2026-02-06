@@ -3,11 +3,11 @@
  * Plugin Name: Store Order Hours Manager for WooCommerce
  * Plugin URI: https://www.bizswoop.com/store-order-hours/
  * Description: Create Custom Open & Close Store Schedules for Automatically Enabling & Disabling Customer Checkout Functionality for WooCommerce
- * Version: 4.3.23
+ * Version: 4.3.24
  * Text Domain: order-hours-scheduler-for-woocommerce
  * Domain Path: /languages
  * WC requires at least: 2.4.0
- * WC tested up to: 9.3.2
+ * WC tested up to: 10.2.2
  * Author: BizSwoop a CPF Concepts, LLC Brand
  * Author URI: http://www.bizswoop.com
  */
